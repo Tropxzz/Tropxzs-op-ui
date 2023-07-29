@@ -1,4 +1,3 @@
-theme = Color3.fromRGB(0,255,0) -- default
 local repo = "https://raw.githubusercontent.com/Tropxzz/Tropxzs-op-ui/main/"
 local dahoodmodded = repo.."Dahoodmodded.lua"
 local whitelistedids = 5602055394
