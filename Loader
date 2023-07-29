@@ -1,6 +1,6 @@
 local repo = "https://raw.githubusercontent.com/Tropxzz/Tropxzs-op-ui/main/"
 local dahoodmodded = repo.."Dahoodmodded.lua"
-local whitelistedids = 5602055394
+local whitelistedids = {5602055394}
 
 for i,ids in pairs(whitelistedids) do
  if game.PlaceId ~= ids then
