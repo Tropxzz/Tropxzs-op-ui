@@ -1,0 +1,14 @@
+theme = Color3.fromRGB(0,255,0) -- default
+local repo = "https://raw.githubusercontent.com/Tropxzz/Tropxzs-op-ui/main/"
+local dahoodmodded = repo.."Dahoodmodded.lua"
+local whitelistedids = 5602055394
+
+for i,ids in pairs(whitelistedids) do
+ if game.PlaceId ~= ids then
+  game.Players.LocalPlayer:Kick("Invaild experience")
+ end
+end
+
+if game.PlaceId == 5602055394 then
+ loadstring(game:HttpGet(dahoodmodded, true))()
+end
