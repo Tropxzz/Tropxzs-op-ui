@@ -1,4 +1,4 @@
-local repo = "https://raw.githubusercontent.com/Tropxzz/Tropxzs-op-ui/main/"
+local repo = "https://raw.githubusercontent.com/Tropxzz/Tropxzs-op-ui/main/games/"
 local dahoodmodded = repo.."Dahoodmodded.lua"
 local whitelistedids = {5602055394}
 
