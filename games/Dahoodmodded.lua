@@ -1,8 +1,4 @@
-
-local sadasdasdasdas8da90sd8sad798a6sd7sa68d7 = Instance.new("ScreenGui", game.CoreGui)
-sadasdasdasdas8da90sd8sad798a6sd7sa68d7.Name = "Atlas"
-
-if game.CoreGui.Atlas then
+if game.CoreGui:FindFirstChild("Atlas") then
 	game.CoreGui.Atlas:Destroy()
 end
 
